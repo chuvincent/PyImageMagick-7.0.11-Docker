@@ -2,4 +2,5 @@
 Docker file for creating a python based image with the latest version of ImageMagick.  The official version has an old version of ImageMagick that does not have advanced functions.
 
 docker build -t {docker image name} .
+
 docker push {docker image name}
